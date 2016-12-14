@@ -134,7 +134,7 @@ void renderCharacter() {
 bool setCharacter(char character) {
   if (character == activeChar) {
     /* @param $character matches $activeChar. EJECT! */
-    return false;/
+    return false;
   }
 
   /* Set $activeChar to character */
